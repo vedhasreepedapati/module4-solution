@@ -1,15 +1,18 @@
-(function () {
-
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-for (var i = 0; i < names.length; i++) {
-  var firstLetter = names[i].charAt(0).toLowerCase();
-   if (firstLetter === 'j') {
-    byeSpeaker.speak(names[i]);
-  } else {
-    helloSpeaker.speak(names[i]);
-  }
+function a ()
+{
+	var names=["Vedhasree","John","Jin","Jason","Harsha","Lasya","Jimin","Jungkook","Jennifer","Namjoon","Suga","Hoseok","Taehyung"];
+	var x=names.length;
+    for (var i = 0; i < x; i++) 
+    {
+    	var firstLetter=names[i].charAt(0);
+    	if (firstLetter==='J') 
+    	{
+    		speak2(names[i]);
+    	}
+    	else
+    	{
+    		speak1(names[i]);
+        }
+    }
 }
-
-})();
-  
-
+a();
